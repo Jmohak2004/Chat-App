@@ -13,7 +13,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://organic-robot-v6vj74vpvr5qfxwr4-5173.app.github.dev/", 
+    origin: "http://localhost:5173", 
     methods: ["GET", "POST"],
   },
 });
