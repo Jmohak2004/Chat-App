@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 import io from 'socket.io-client';
 
 // Connect to the server. Change the URL if your server is hosted elsewhere.
-const socket = io('http://localhost:3000');
+const socket = io('https://chat-app-f3js.onrender.com/');
 
 function App() {
   // State management
